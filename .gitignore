@@ -1,0 +1,21 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local test copies of the executed notebook
+executed_*.ipynb
+
+# The optional source files and the crops rebuilt from them (see the notebook, section 3.2)
+data/SULAND_images.zip
+data/Annotation_files_for_SULAND_v2.zip
+rebuilt_crops/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
